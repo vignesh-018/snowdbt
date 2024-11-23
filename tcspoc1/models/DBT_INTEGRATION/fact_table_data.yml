@@ -1,0 +1,14 @@
+version: 2
+
+models:
+    - name: fact_orders
+      description : "orders data"
+      columns :
+          - name : ORDERID
+          - name : CUSTOMERID
+          - name : PRODUCTID
+          
+
+
+
+   

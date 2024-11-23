@@ -1,0 +1,17 @@
+version: 2
+
+models:
+    - name: orders_data
+      description : "orders data"
+      columns :
+          - name : row_id
+          - name : order_id
+          - name : order_date
+          - name : shipdate
+          - name : shipmode
+          - name : sales
+          - name : Quantity
+          - name : discount
+          - name : Profit
+          - name : product_id
+     

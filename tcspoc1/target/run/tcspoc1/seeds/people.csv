@@ -1,0 +1,12 @@
+
+    
+    
+    truncate table "COMMEXEC_DEV"."DBT_DEV"."PEOPLE";
+    -- dbt seed --
+    
+            insert into COMMEXEC_DEV.DBT_DEV.people (id, Person, Region) values
+            (%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s)
+        
+
+;
+  

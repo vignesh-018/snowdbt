@@ -1,0 +1,10 @@
+version: 2
+
+models:
+    - name: fact_returns
+      description : "returns data"
+      columns :
+          - name : returned
+          - name : order_id
+
+   

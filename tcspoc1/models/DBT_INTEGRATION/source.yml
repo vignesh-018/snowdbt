@@ -1,0 +1,28 @@
+version: 2
+
+sources:
+    - name: dbt_dev
+      database: COMMEXEC_DEV
+      tables: 
+       - name: dim_customer
+         description : ""
+
+       - name: dim_date
+         description: "date data details"
+       - name: dim_people
+         description: "people data details"
+       - name: dim_product
+         description: "product data details"
+       - name: raw_L0_orders
+         description: "oraders data getting from staging data"
+       - name: returns_seed
+         description: "returns data getting from seed folder"
+       - name: fact_returns
+         description: "returns data getting from L1 folder"
+       - name: orders
+         description: "orders data getting from seed folder"
+       - name: fact_orders
+         description: "orders data getting from seed folder"
+      
+  
+        
